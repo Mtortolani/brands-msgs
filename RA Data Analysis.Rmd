@@ -1,0 +1,18 @@
+---
+title: "brand_msgs"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r data imports}
+setwd('D:/mtort/Downloads/brands-msgs')
+
+list.files()
+surveyData <- read.table(file='Marco Tortolani - survey.csv', sep=',', header=TRUE)
+head(surveyData)
+
+
+```
+
