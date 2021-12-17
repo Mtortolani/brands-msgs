@@ -1,3 +1,6 @@
+import sys
+sys.path.insert(1, 'C:/Users/mtort/Repositories/brands-msgs/')
+
 import pandas as pd
 import numpy as np
 from numpy import reshape

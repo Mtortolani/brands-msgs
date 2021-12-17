@@ -42,3 +42,5 @@ vignettes/*.pdf
 # files
 clean_files
 dirty_files
+condensed_ad_preferences
+data_samples

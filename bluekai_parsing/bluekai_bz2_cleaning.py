@@ -1,3 +1,6 @@
+import sys
+sys.path.insert(1, 'C:/Users/mtort/Repositories/brands-msgs/')
+
 from file_opener import ReaderTools
 from bs4 import BeautifulSoup
 reader = ReaderTools()

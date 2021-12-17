@@ -1,6 +1,12 @@
+import sys
+sys.path.insert(1, 'C:/Users/mtort/Repositories/brands-msgs/')
+
 import pandas as pd
 import json
+
+
 from file_opener import ReaderTools
+
 
 # This combines bh clean and survey
 # allows you to link specific url visits to political data
@@ -39,7 +45,15 @@ class BluekaiData():
             
         # print(len(self.bluekai_ids))
         # print(len(self.bluekai_categories))
-
+    def createCagtegoriesJson(self):
+        bluekai_preferences = {}
+        id_cat_list = zip(self.bluekai_ids, self.bluekai_categories)
+        for pair in id_cat_list:
+            bluekai_preferences[str(pair[0])] = pair[1]
+            
+        with open ('bluekai_preferences_MT.json', 'w') as fp:
+            json.dump(bluekai_preferences,fp)
+            
     def switchUserIds(self):
         #converts id to user_id for bluekai data
         # result
@@ -58,11 +72,19 @@ class BluekaiData():
         # survey_party = list(df_survey['party7_str'])
         # df_survey.head()
         pass
-        
+    
+def main():
+    BD = BluekaiData()
+    BD.pullBluekaiCategories()
+    BD.createCagtegoriesJson()
 
 
+
+if __name__=='__main__':
+    main()
+    
 # blukai_subset
-# id: 637456
+# id: 637456DOCS
 # user_id: ah3y-adh2-akfhaweif -> survey
 
 # bluekai_json

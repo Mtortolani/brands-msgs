@@ -3,6 +3,7 @@ import json
 import csv
 import bz2
 
+
 class ReaderTools:
     def __init__(self):
         pass
@@ -12,11 +13,15 @@ class ReaderTools:
         csv_table.to_csv(endFileName)
         print(f'{fileName} Tsv file converted to csv')
 
-    def jsonToList(self, filename):
+    def jsonToList(self, filename, lineCount):
         jsonList = []
+        counter=0
         with open (filename, 'r', encoding='utf-8') as file:
             for line in file:
-                jsonList.append(json.loads(line))
+                if counter != lineCount:
+                    jsonList.append(json.loads(line))
+                    counter+=1
+                    
         return jsonList
 
 
@@ -44,26 +49,43 @@ class ReaderTools:
         df = df.sample(frac=10/1000000, replace=False, random_state=1)
         return(df)
 
+def main():
+    reader = ReaderTools()
+    # tsv_to_csv('dirty_files\Marco Tortolani - bh-clean.tsv', 'bh_clean.csv')
+    # reader.tsv_to_csv('dirty_files\Marco Tortolani - google_ads\subset.tsv', 'google_ads_subset.csv')
+    # reader.tsv_to_csv('dirty_files\Marco Tortolani - bluekai\subset.tsv', 'bluekai_subset.csv')
+    
+    bluekai = reader.jsonToList('clean_files/bluekai/bluekai_html_0.json', 50)
+    google = reader.jsonToList('clean_files/google_ads/google_ads_html_0.json', 50)
+    
+    # print(google[4]['id'])
+    # print(google[4]['html'])
+    
+    google_dict = {obs['id'] : obs['html'] for obs in google}
+    # print(google[4]['html'])
+    print(google_dict.keys())
+    with open('data_samples/google_ads_json_50.json', 'w') as file:
+        json.dump(google_dict, file)
+    
+    
+    # # print(bluekai[4]['id'])
+    # # print(bluekai[4]['html'])
+    
+    bluekai_dict = {obs['id'] : obs['html'] for obs in bluekai}
+    print(bluekai_dict.keys())
+    with open('data_samples/bluekai_json_50.json', 'w') as file:
+        json.dump(bluekai_dict, file)
+    
+    
 
-# reader = ReaderTools()
-# tsv_to_csv('dirty_files\Marco Tortolani - bh-clean.tsv', 'bh_clean.csv')
-# tsv_to_csv('dirty_files\Marco Tortolani - google_ads\subset.tsv', 'google_ads_subset.csv')
-# tsv_to_csv('dirty_files\Marco Tortolani - bluekai\subset.tsv', 'bluekai_subset.csv')
- 
-# bluekai = reader.jsonToList('clean_files/bluekai/bluekai_html_0.json')
-# google = reader.jsonToList('clean_files/google_ads/google_ads_html_0.json')
+    # google_bz = bz2ToList('original_files\Marco Tortolani - google_ads\google_ads_html_0.json.bz2')
+    # print(google_bz[0]['id'])
+    # textfile = open('google_ads_json_bz2.txt','w', encoding='utf-8')
+    # textfile.write(google_bz[1]['html'])
+    # textfile.close()
 
+    # df_bh_clean = pd.read_csv('df_bh_clean.csv')
+    # print(df_bh_clean['domain'])
 
-# print(google[4]['id'])
-# print(google[4]['html'])
-# print(bluekai[4]['id'])
-# print(bluekai[4]['html'])
-
-# google_bz = bz2ToList('original_files\Marco Tortolani - google_ads\google_ads_html_0.json.bz2')
-# print(google_bz[0]['id'])
-# textfile = open('google_ads_json_bz2.txt','w', encoding='utf-8')
-# textfile.write(google_bz[1]['html'])
-# textfile.close()
-
-# df_bh_clean = pd.read_csv('df_bh_clean.csv')
-# print(df_bh_clean['domain'])
+if __name__=='__main__':
+    main()
