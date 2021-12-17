@@ -6,23 +6,23 @@
       "Arts and Entertainment > Humor": [],
       "Arts and Entertainment > Music": [],
       "Arts and Entertainment > Performing Arts": [],
-      "Arts and Entertainment > TV Movies and Streaming": [],
+      "Arts and Entertainment > TV Movies and Streaming": ["youtube.com"],
       "Arts and Entertainment > Visual Arts and Design": []
     },
     "Business and Consumer Services": {
       "Business and Consumer Services > Business and Consumer Services": [],
-      "Business and Consumer Services > Business Services": [],
-      "Business and Consumer Services > Marketing and Advertising": ["survey-d.dynata.com"],
+      "Business and Consumer Services > Business Services": ["selfserve.decipherinc.com", "webtraffic.datacollectionsite.com", "survey.researchresults.com", "iq-dist-2.com", "surveys.harrisinsights.com", "api.inboxdollars.com", "harrisx.decipherinc.com", "roirocket.decipherinc.com", "websurvey5.opinionbar.com", "e-rewards.com", "ipsospollpredictor2.com", "insightexpress.com", "luthresearch.decipherinc.com", "researchsurv.com", "invite.rmrsurveys.com", "cmb.decipherinc.com", "survey7.jdpoweronline.com", "s1.intellisurvey.com", "m1.intellisurvey.com", "s-dri.com", "survey.cmix.com", "www601w.msisurvey.com", "tes.decipherinc.com", "csurvey.voicefive.com", "surveys.jibunu.com", "ps.opinionetwork.com", "c.opinionetwork.com", "marconline.com", "leger.decipherinc.com", "opinionsresearch.com", "survey-ca.dynata.com", "r3p01.netcrimson.com", "survey-uk.dynata.com", "survey.vipvoice.com", "ilabinsight.com", "spectrumsurveys.com", "beasurveytaker.com", "secure3.surveynetwork.com", "pt.surveysavvy.com"],
+      "Business and Consumer Services > Marketing and Advertising": ["survey-d.dynata.com", "sw.ktrmr.com", "dkr1.ssisurveys.com", "samplicio.us", "lifepointspanel.com", "online.ssisurveys.com", "sz.ktrmr.com", "s.cint.com", "survey.opinion.life", "surveys.ipsosinteractive.com", "surveymyopinion.researchnow.com", "web70.gfk.com", "survey.alchemer.com", "globalsurveys.mintel.com", "enter.ipsosinteractive.com", "surveyw.enginesurveys.com", "perksplus.com", "productreportcard.com", "router.cint.com", "surveys.sample-cube.com"],
       "Business and Consumer Services > Online Marketing": [],
       "Business and Consumer Services > Publishing and Printing": [],
-      "Business and Consumer Services > Real Estate": [],
+      "Business and Consumer Services > Real Estate": ["zillow.com"],
       "Business and Consumer Services > Relocation and Household Moving": [],
       "Business and Consumer Services > Shipping and Logistics": [],
       "Business and Consumer Services > Textiles": []
     },
     "Community and Society": {
       "Community and Society > Community and Society": [],
-      "Community and Society > Decease": [],
+      "Community and Society > Decease": ["findagrave.com"],
       "Community and Society > Faith and Beliefs": [],
       "Community and Society > Holidays and Seasonal Events": [],
       "Community and Society > LGBTQ": [],
@@ -30,32 +30,32 @@
       "Community and Society > Romance and Relationships": []
     },
     "Computers Electronics and Technology": {
-      "Computers Electronics and Technology > Advertising Networks": [],
+      "Computers Electronics and Technology > Advertising Networks": ["inboxdollars.com"],
       "Computers Electronics and Technology > Computer Hardware": [],
       "Computers Electronics and Technology > Computer Security": [],
-      "Computers Electronics and Technology > Computers Electronics and Technology": [],
+      "Computers Electronics and Technology > Computers Electronics and Technology": ["calendar.google.com", "aol.com", "surveygizmo.com"],
       "Computers Electronics and Technology > Consumer Electronics": [],
-      "Computers Electronics and Technology > Email": [],
+      "Computers Electronics and Technology > Email": ["mail.yahoo.com", "mail.google.com"],
       "Computers Electronics and Technology > File Sharing and Hosting": [],
       "Computers Electronics and Technology > Graphics Multimedia and Web Design": [],
       "Computers Electronics and Technology > Programming and Developer Software": [],
-      "Computers Electronics and Technology > Search Engines": [],
-      "Computers Electronics and Technology > Social Networks and Online Communities": [],
+      "Computers Electronics and Technology > Search Engines": ["google.com", "duckduckgo.com"],
+      "Computers Electronics and Technology > Social Networks and Online Communities": ["instagram.com", "reddit.com", "facebook.com", "linkedin.com"],
       "Computers Electronics and Technology > Telecommunications": [],
       "Computers Electronics and Technology > Web Hosting and Domain Names": []
     },
     "E commerce and Shopping": {
-      "E commerce and Shopping > Auctions": [],
+      "E commerce and Shopping > Auctions": ["auctionzip.com", "hibid.com"],
       "E commerce and Shopping > Classifieds": [],
-      "E commerce and Shopping > Coupons and Rebates": [],
-      "E commerce and Shopping > E commerce and Shopping": [],
-      "E commerce and Shopping > Marketplace": [],
+      "E commerce and Shopping > Coupons and Rebates": ["ncponline.com"],
+      "E commerce and Shopping > E commerce and Shopping": ["panelistsurvey.com"],
+      "E commerce and Shopping > Marketplace": ["ebay.com", "amazon.com"],
       "E commerce and Shopping > Price Comparison": [],
       "E commerce and Shopping > Tickets": []
     },
     "Finance": {
       "Finance > Accounting and Auditing": [],
-      "Finance > Banking Credit and Lending": [],
+      "Finance > Banking Credit and Lending": ["mail.aol.com", "atlanticunionbanksecure.com", "onlineservices.ubs.com", "www.dmv.virginia.gov"],
       "Finance > Finance": [],
       "Finance > Financial Planning and Management": [],
       "Finance > Insurance": [],
@@ -64,9 +64,9 @@
     "Food and Drink": {
       "Food and Drink > Beverages": [],
       "Food and Drink > Cooking and Recipes": [],
-      "Food and Drink > Food and Drink": [],
+      "Food and Drink > Food and Drink": ["theshoppersnest.com"],
       "Food and Drink > Groceries": [],
-      "Food and Drink > Restaurants and Delivery": [],
+      "Food and Drink > Restaurants and Delivery": ["fd9643.customervoice360.com", "applebees.com"],
       "Food and Drink > Vegetarian and Vegan": []
     },
     "Gambling": {
@@ -79,10 +79,10 @@
     },
     "Games": {
       "Games > Board and Card Games": [],
-      "Games > Games": [],
+      "Games > Games": ["triviatoday.com"],
       "Games > Puzzles and Brainteasers": [],
       "Games > Roleplaying Games": [],
-      "Games > Video Games Consoles and Accessories": []
+      "Games > Video Games Consoles and Accessories": ["your-surveys.com"]
     },
     "Health": {
       "Health > Addictions": [],
@@ -115,7 +115,7 @@
     },
     "Hobbies and Leisure": {
       "Hobbies and Leisure > Ancestry and Genealogy": [],
-      "Hobbies and Leisure > Antiques and Collectibles": [],
+      "Hobbies and Leisure > Antiques and Collectibles": ["coinworld.com", "catalog.usmint.gov"],
       "Hobbies and Leisure > Camping Scouting and Outdoors": [],
       "Hobbies and Leisure > Crafts": [],
       "Hobbies and Leisure > Hobbies and Leisure": [],
@@ -125,8 +125,8 @@
     "Home and Garden": {
       "Home and Garden > Furniture": [],
       "Home and Garden > Gardening": [],
-      "Home and Garden > Home and Garden": [],
-      "Home and Garden > Home Improvement and Maintenance": [],
+      "Home and Garden > Home and Garden": ["virginia.hibid.com"],
+      "Home and Garden > Home Improvement and Maintenance": ["lowes.com"],
       "Home and Garden > Interior Design": []
     },
     "Jobs and Career": {
@@ -152,7 +152,7 @@
       "Lifestyle > Tobacco": [],
       "Lifestyle > Weddings": []
     },
-    "News and Media": [],
+    "News and Media": ["yahoo.com", "finance.yahoo.com", "winchesterstar.com", "politico.com", "news.yahoo.com", "usatoday.com"],
     "Pets and Animals": {
       "Pets and Animals > Animals": [],
       "Pets and Animals > Birds": [],
@@ -190,14 +190,14 @@
       "Science and Education > Weather": []
     },
     "Sports": {
-      "Sports > American Football": [],
+      "Sports > American Football": ["bwi.rivals.com"],
       "Sports > Baseball": [],
       "Sports > Basketball": [],
       "Sports > Boxing": [],
       "Sports > Climbing": [],
       "Sports > Cycling and Biking": [],
       "Sports > Extreme Sports": [],
-      "Sports > Fantasy Sports": [],
+      "Sports > Fantasy Sports": ["draftkings.com", "fanduel.com"],
       "Sports > Fishing": [],
       "Sports > Golf": [],
       "Sports > Hunting and Shooting": [],
@@ -205,7 +205,7 @@
       "Sports > Rugby": [],
       "Sports > Running": [],
       "Sports > Soccer": [],
-      "Sports > Sports": [],
+      "Sports > Sports": ["247sports.com"],
       "Sports > Tennis": [],
       "Sports > Volleyball": [],
       "Sports > Water Sports": [],
@@ -229,5 +229,6 @@
       "Vehicles > Motorsports": [],
       "Vehicles > Vehicles": []
     },
-    "Adult": []
-  }
+    "Adult": ["xhamster.com"],
+    "Unknown": ["ia5.irrationalagency.com", "opinionresearch.decipherinc.com", "survey.iriworldwide.com", "playfree.fanduel.com", "investorforum.cspace.com", "survey.surveytestlink.com", "na.surveys.nielsen.com", "www.us1.mytelecomsurvey.com", "mybeveragesurvey.com", "survey12.decisionvelocity.com", "finchsight.my-take.com"]
+}

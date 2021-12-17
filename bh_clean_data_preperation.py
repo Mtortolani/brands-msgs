@@ -22,9 +22,9 @@ for i, j in domains_dict.items():
     domain_values.append([i,j])
 print(domain_values)
     
-with open('bh_clean_domains.csv', 'w+', newline='') as file:
-    write = csv.writer(file)
-    write.writerows(domain_values)
+# with open('bh_clean_domains.csv', 'w+', newline='') as file:
+#     write = csv.writer(file)
+#     write.writerows(domain_values)
 
 print(df_bh_clean['domain'].value_counts())
 pd.value_counts(df_bh_clean['domain']).plot(kind='bar', figsize= (100,100))
